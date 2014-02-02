@@ -99,7 +99,7 @@ Options determine the configuration of a client.
 * **Debug mode** (`debug`): Log steps performed when sending/recieving data from UserApp. Default: `false`.
 * **Secure mode** (`secure`): Call the API using HTTPS. Default: `true`.
 * **Base address** (`baseAddress`): The address to call against. Default: `api.userapp.io`.
-* **Throw errors** (`throwErrors`): Whether or not to throw an exception when response is an error. I.e. result `{"error_code":"SOME_ERROR","message":"Some message"}` results in an exception of type `UserApp.Exceptions.ServiceException`.
+* **Throw errors** (`throwErrors`): Whether or not to throw an exception when response is an error. I.e. result `{"error_code":"SOME_ERROR","message":"Some message"}` results in an exception of type `ServiceException`.
 
 ### Setting options
 
