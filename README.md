@@ -118,7 +118,7 @@ If you want to set an option after the client has been created you can do it as 
 
 ## Example code
 
-A more detailed set of examples can be found in /src/io/userapp/client/demo.
+A more detailed set of examples can be found in [/src/io/userapp/client/demo/Demo.java](https://github.com/userapp-io/userapp-java/blob/master/src/io/userapp/client/demo/Demo.java).
 
 ### Example code (sign up a new user)
 
