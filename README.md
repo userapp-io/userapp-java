@@ -256,7 +256,7 @@ Is exactly the same as:
 
 ## Dependencies
 
-* [org.json](http://json.org/java/)
+* [org.json](http://json.org/java/) (included)
 
 ## License
 
