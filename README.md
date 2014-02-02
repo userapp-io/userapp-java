@@ -12,7 +12,7 @@ If you don't have a UserApp account, you need to [create one](https://app.userap
 
 ### Referencing the library
 
-Add the `.jar` file to your libraries and import it with the following lines:
+Add the [.jar file](https://github.com/userapp-io/userapp-java/raw/master/bin/userapp-java-1.0.0.jar) to your libraries and import it with the following lines:
 
     import io.userapp.client.UserApp;
     import io.userapp.client.exceptions.*;
