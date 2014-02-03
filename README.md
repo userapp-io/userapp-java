@@ -134,12 +134,12 @@ A more detailed set of examples can be found in [/src/io/userapp/client/demo/Dem
 
     UserApp.API api = new UserApp.API("YOUR-USERAPP-APP-ID");
     
-    result = api.method("user.login")
+    UserApp.Result result = api.method("user.login")
         .parameter("login", "johndoe81")
         .parameter("password", "iwasfirst!111")
         .call();
     
-    UserApp.Result result = api.method("user.save")
+    result = api.method("user.save")
         .parameter("user_id", "self")
         .parameter("first_name", "John")
         .parameter("last_name", "Doe")
