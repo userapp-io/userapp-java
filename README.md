@@ -182,7 +182,9 @@ Sometimes to debug an API error it's important to see what is being sent/recieve
 When the option `throwErrors` is set to `true` (default) the client will automatically throw a `ServiceException` exception when a call results in an error. I.e.
 
     try {
-        api.User.Save(userId: "invalid user id");
+        api.method("user.save")
+            .parameter("user_id", "invalid user id")
+            .call()
     }
     catch (ServiceException exception) {
         switch(exception.getErrorCode()) {
