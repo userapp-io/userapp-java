@@ -184,7 +184,7 @@ When the option `throwErrors` is set to `true` (default) the client will automat
     try {
         api.method("user.save")
             .parameter("user_id", "invalid user id")
-            .call()
+            .call();
     }
     catch (ServiceException exception) {
         switch(exception.getErrorCode()) {
@@ -200,7 +200,7 @@ Setting `throwErrors` to `false` is more of a way to tell the client to be silen
 
     UserApp.Result result = api.method("user.save")
         .parameter("user_id", "invalid user id")
-        .call()
+        .call();
         
     if (result.get("error_code").exists()) {
         if (result.get("error_code").toString().equals("INVALID_ARGUMENT_USER_ID")) {
