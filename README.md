@@ -194,7 +194,7 @@ When the option `throwErrors` is set to `true` (default) the client will automat
         }
     }
 
-Setting `throwErrors` to `false` is more of a way to tell the client to be silent. This will not throw any service specific exceptions. Though, it might throw a `UserAppException`, `InvalidServiceException` or `InvalidMethodException`.
+Setting `throwErrors` to `false` is more of a way to tell the client to be silent. This will not throw any service specific exceptions. Though, it might throw a `UserAppException`, `InvalidServiceException`, or `InvalidMethodException`.
 
     UserApp.Result result = api.method("user.save")
         .parameter("user_id", "invalid user id")
