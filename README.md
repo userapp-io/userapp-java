@@ -19,7 +19,7 @@ Add the [.jar file](https://github.com/userapp-io/userapp-java/raw/master/bin/us
 
 ### Download and add the org.json library to your project
 
-[org.json](http://mvnrepository.com/artifact/org.json/json) (Put it in the same folder as the userapp-java jar).
+[org.json](http://mvnrepository.com/artifact/org.json/json) (put it in the same folder as the userapp-java jar).
 
 ### Creating your first client
  
